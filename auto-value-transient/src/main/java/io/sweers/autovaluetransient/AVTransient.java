@@ -30,17 +30,17 @@ public @interface AVTransient {
     SERIALIZATION,
 
     /**
-     * AVTransient this field for deserialization only. The annotated property will be ignored by
-     * the generated serializer when creating an object from its serialized format, and instead the
-     * default value for this property will be used.
-     */
-    DESERIALIZATION,
-
-    /**
      * AVTransient this field for both serialization and deserialization.
      * <p>
      * This is the default value for the AVTransient annotation.
      */
-    BOTH
+    BOTH,
+
+    /**
+     * AVTransient this field for deserialization only. The annotated property will be ignored by
+     * the generated serializer when creating an object from its serialized format, and instead the
+     * default value for this property will be used.
+     */
+    DESERIALIZATION
   }
 }
