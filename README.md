@@ -11,26 +11,15 @@ Usage:
 @AutoValue
 public abstract class Taco {
 
-  @AVTransient // or @AVTransient(BOTH)
+  @AVTransient
   abstract Integer weight();
-
-  @AVTransient(SERIALIZATION)
-  abstract Boolean isBreakfast();
-
-  @AVTransient(DESERIALIZATION)
-  abstract Seasoning seasoning();
 
 }
 ```
 
-Types:
-* `BOTH` - Should treat this property as transient for both serialization and deserialization. This is the default.
-* `SERIALIZATION` - Should treat this property as transient for serialization only.
-* `DESERIALIZATION` - Should treat this property as transient for deserialization only.
-
-Caveats:
+Usage notes:
 * While left to the implementations of the respective plugins, this should only be applied to optional properties. Applying to a primitive or required property could result in undefined behavior.
-
+* 
 
 Download
 --------
