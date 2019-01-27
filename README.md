@@ -1,9 +1,9 @@
 auto-value-transient
 ====================
 
-[![Build Status](https://travis-ci.org/hzsweers/auto-value-ignore.svg?branch=master)](https://travis-ci.org/hzsweers/auto-value-ignore)
+[![Build Status](https://travis-ci.org/hzsweers/auto-value-transient.svg?branch=master)](https://travis-ci.org/hzsweers/auto-value-transient)
 
-A simple `@AVTransient` annotation for shared use in [auto-value-gson][avg], [auto-value-moshi][avm], and [auto-value-parcel][avp]. This library should be considered solely a shared common library for those three and only consumed transitively.
+A simple `@AutoTransient` annotation for shared use in [auto-value-gson][avg], [auto-value-moshi][avm], and [auto-value-parcel][avp]. This library should be considered solely a shared common library for those three and only consumed transitively.
 
 Usage:
 
@@ -11,7 +11,7 @@ Usage:
 @AutoValue
 public abstract class Taco {
 
-  @AVTransient
+  @AutoTransient
   abstract Integer weight();
 
 }
