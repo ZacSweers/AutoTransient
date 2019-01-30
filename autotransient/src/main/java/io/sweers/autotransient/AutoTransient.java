@@ -1,4 +1,4 @@
-package io.sweers.autovaluetransient;
+package io.sweers.autotransient;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

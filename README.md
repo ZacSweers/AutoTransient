@@ -1,7 +1,7 @@
-auto-value-transient
-====================
+AutoTransient
+=============
 
-[![Build Status](https://travis-ci.org/hzsweers/auto-value-transient.svg?branch=master)](https://travis-ci.org/hzsweers/auto-value-transient)
+[![Build Status](https://travis-ci.org/ZacSweers/AutoTransient.svg?branch=master)](https://travis-ci.org/ZacSweers/AutoTransient)
 
 A simple `@AutoTransient` annotation for shared use in [auto-value-gson][avg], [auto-value-moshi][avm], and [auto-value-parcel][avp]. This library should be considered solely a shared common library for those three and only consumed transitively.
 
@@ -24,9 +24,9 @@ Usage notes:
 Download
 --------
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.sweers.autovaluetransient/auto-value-transient.svg)](https://mvnrepository.com/artifact/io.sweers.autovaluetransient/auto-value-transient)
+[![Maven Central](https://img.shields.io/maven-central/v/io.sweers.autotransient/auto-value-transient.svg)](https://mvnrepository.com/artifact/io.sweers.autotransient/auto-value-transient)
 ```gradle
-compileOnly 'io.sweers.autovaluetransient:auto-value-transient:x.y.z'
+compileOnly 'io.sweers.autotransient:autotransient:x.y.z'
 ```
 
 Snapshots of the development version are available in [Sonatype's snapshots repository][snapshots].
