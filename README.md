@@ -19,6 +19,7 @@ public abstract class Taco {
 
 Usage notes:
 * While left to the implementations of the respective plugins, this should only be applied to optional properties. Applying to a primitive or required property could result in undefined behavior.
+* For serialization: This should be expected for both read and write behavior. There is no way to configure only one or the other via this annotation. Instead, consumers should write a delegating adapter for serialization that only calls through to the delegate for the desired serialization types.
 
 Download
 --------
