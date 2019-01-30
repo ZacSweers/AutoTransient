@@ -19,7 +19,6 @@ public abstract class Taco {
 
 Usage notes:
 * While left to the implementations of the respective plugins, this should only be applied to optional properties. Applying to a primitive or required property could result in undefined behavior.
-* 
 
 Download
 --------
